@@ -103,6 +103,21 @@ export default {
 </script>
 
 <style scoped>
+.salle-plan-container {
+  background-image: url("salle.png");
+  background-size: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 900px;
+  height: 60vw;
+  max-height: 500px;
+  min-height: 220px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
 .reservation-header {
   text-align: center;
   padding: 10px;
@@ -121,14 +136,14 @@ export default {
   white-space: nowrap;
 }
 .btn-reserver { top: 57%; left: 18%; }
-.btn-salle-1  { top: 25%; left: 71%; }
+.btn-salle-1  { top: 28%; left: 72.2%; }
 .btn-salle-2  { top: 25.9%; left: 63%; }
 .btn-salle-3  { top: 25%; left: 51.7%; }
 .btn-salle-4  { top: 25%; left: 41.2%; }
-.btn-salle-5  { top: 74%; left: 69.7%; }
-.btn-salle-6  { top: 73%; left: 61.3%; }
-.btn-salle-7  { top: 73%; left: 51%; }
-.btn-salle-8  { top: 73%; left: 40.8%; }
+.btn-salle-5  { top: 65.2%; left: 70.7%; }
+.btn-salle-6  { top: 65.3%; left: 62.1%; }
+.btn-salle-7  { top: 68.2%; left: 52.2%; }
+.btn-salle-8  { top: 69.2%; left: 41.5%; }
 .formulaire {
   width: 100%;
   max-width: 350px;
@@ -176,21 +191,7 @@ export default {
   flex-wrap: wrap;
   box-sizing: border-box;
 }
-.salle-plan-container {
-  background-image: url("salle.png");
-  background-size: 105%;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  max-width: 900px;
-  height: 60vw;
-  max-height: 500px;
-  min-height: 220px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  flex-shrink: 0;
-}
+
 @media (max-width: 768px) {
   #app-container {
     flex-direction: column;
