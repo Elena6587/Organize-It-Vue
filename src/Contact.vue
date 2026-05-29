@@ -34,7 +34,7 @@ export default {
   methods: {
     async contact() {
       try {
-        const response = await fetch("https://organize-it-node.onrender.com/contact", {
+        const response = await fetch("https://organize-it-api.onrender.com/contact", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ nom: this.nom, email: this.email, message: this.messageContact })

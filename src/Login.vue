@@ -32,7 +32,7 @@ export default {
       this.message = "";
       this.loading = true;
       try {
-        const response = await fetch("https://organize-it-node.onrender.com/connexion", {
+        const response = await fetch("https://organize-it-api.onrender.com/connexion", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ identifiant: this.identifiant, mot_de_passe: this.mot_de_passe })
