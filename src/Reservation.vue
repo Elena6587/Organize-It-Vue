@@ -31,6 +31,7 @@
           <option>Micro</option>
           <option>Chaise</option>
           <option>Table</option>
+          <option>Matériel d'exposition</option>
         </select>
         <label>Quantite :</label>
         <input type="number" min="1" v-model="eq.quantite">
