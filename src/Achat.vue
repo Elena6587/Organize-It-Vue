@@ -13,6 +13,7 @@
         <option>Micro</option>
         <option>Chaise</option>
         <option>Table</option>
+        <option>Matériel d'exposition</option>
       </select>
       <input type="number" min="1" v-model="ajoutQuantite">
       <h2>Paiement</h2>
